@@ -77,3 +77,23 @@ on click of the button
     - clear out the old slogans from the DOM (immutable)
     - loop through slogan array
     - append each slogan
+
+
+| User should be able to . . .                                                         |             |
+| :----------------------------------------------------------------------------------| ----------: |
+| Visit the deployed pages on GitHub pages, with link in the About section of the Github repo |    2 |
+
+| Events . . .                                                         |             |
+| :----------------------------------------------------------------------------------- | ----------: |
+| Select from at least three dropdowns with at least three options each                |           2 |
+| On choosing an option from the dropdown and see the change reflected in the UI with a new image |     2 |
+| When submitting a catchphrase, add it to an array of catchphreses, clear the current DOM's list of catchphases, and list all catchphrases in the DOM         |           4 |
+| See displayed how many times each dropdown has been changed in the current session   |           4 |
+
+| Functions                                                              |             |
+| :----------------------------------------------------------------------------------- | ----------: |
+| PURE with TDD: `createStatsString` | 2 |
+| IMPURE: `displayStats()` | 2 |
+| IMPURE: `displayCatchphrases()` | 2 |
+
+

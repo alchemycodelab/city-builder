@@ -75,8 +75,19 @@ header img {
     height: var(--header-height);
 }
 
+.skyline {
+    height: 500px;
+}
+
 p {
     margin: var(--gutter);
+}
+
+main {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../assets/bg.jpeg);
 }
   
 footer {
@@ -88,4 +99,24 @@ footer {
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+    border: solid 1px pink;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+}
+
+img {
+    width: 600px
+}
+
+.slogans, .count {
+    background-color: white;
+    padding: 20px;
 }

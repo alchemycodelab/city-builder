@@ -61,6 +61,8 @@ console.log('D parent says: ', childThing);
   - Why? A place to hold/inject slogans
   - Use the `display a list` pattern from earlier
 6) Div for counts
+  - Why? A place to hold how many times each dropdown was used
+
 
 ## Events
 on change of any dropdown
@@ -92,7 +94,7 @@ on click of the button
 
 | Functions                                                              |             |
 | :----------------------------------------------------------------------------------- | ----------: |
-| PURE with TDD: `createStatsString` | 2 |
+| PURE with TDD: `createCountString(waterfrontCount, skylineCount, castleCount) : returns a string describing the current count of each piece of state supplied as an argument` | 2 |
 | IMPURE: `displayStats()` | 2 |
 | IMPURE: `displayCatchphrases()` | 2 |
 

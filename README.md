@@ -89,13 +89,13 @@ on click of the button
 | :----------------------------------------------------------------------------------- | ----------: |
 | Select from at least three dropdowns with at least three options each                |           2 |
 | On choosing an option from the dropdown and see the change reflected in the UI with a new image |     2 |
-| When submitting a catchphrase, add it to an array of catchphreses, clear the current DOM's list of catchphases, and list all catchphrases in the DOM         |           4 |
+| When submitting a slogan, add it to an array of slogans, clear the current DOM's list of catchphases, and list all catchphrases a `p` tags in the DOM         |           4 |
 | See displayed how many times each dropdown has been changed in the current session   |           4 |
 
 | Functions                                                              |             |
 | :----------------------------------------------------------------------------------- | ----------: |
 | PURE with TDD: `createCountString(waterfrontCount, skylineCount, castleCount) : returns a string describing the current count of each piece of state supplied as an argument` | 2 |
 | IMPURE: `displayStats()` | 2 |
-| IMPURE: `displayCatchphrases()` | 2 |
+| IMPURE: `displaySlogans()` | 2 |
 
 

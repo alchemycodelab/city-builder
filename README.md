@@ -95,7 +95,7 @@ on click of the button
 | Events . . .                                                         |             |
 | :----------------------------------------------------------------------------------- | ----------: |
 | Select from at least three dropdowns (i.e. waterfront, skyline, castle) positioned left to right) with at least three options each                |           2 |
-| On choosing an option from the dropdown and see the change reflected in the UI with a new image (images are positioned left to right, https://pixabay.com/ is a good source for free images) |     2 |
+| Three images displayed on the page. On choosing an option from the dropdown and see the change reflected in the UI with a new images (images are positioned left to right, https://pixabay.com/ is a good source for free images) |     2 |
 | When submitting a slogan, add it to an array of slogans, clear the current DOM's list of slogans, and list all slogans a `p` tags in the DOM         |           4 |
 | See displayed how many times each dropdown has been changed in the current session   |           4 |
 

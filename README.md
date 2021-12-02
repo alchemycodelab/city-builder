@@ -103,6 +103,6 @@ on click of the button
 | :----------------------------------------------------------------------------------- | ----------: |
 | PURE with TDD: `createCountString(waterfrontCount, skylineCount, castleCount) : returns a string describing the current count of each piece of state supplied as an argument` | 2 |
 | IMPURE: `displayStats()` | 2 |
-| IMPURE: `displaySlogans()` | 2 |
+| IMPURE: `displaySlogans() : clears DOM, loops through slogans, displays slogans on the page` | 2 |
 
 

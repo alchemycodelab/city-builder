@@ -12,9 +12,8 @@
 
 | Functions                                                              |             |
 | :----------------------------------------------------------------------------------- | ----------: |
-| PURE with TDD: `createCountString(waterfrontCount, skylineCount, castleCount) : returns a string describing the current count of each piece of state supplied as an argument` | 2 |
-| IMPURE: `displayStats()` | 2 |
-| IMPURE: `displaySlogans() : clears DOM, loops through slogans, displays slogans on the page` | 2 |
+| IMPURE: `displayCountStats() : attaches a string to the DOM describing how many times each dropdown has been changed` | 3 |
+| IMPURE: `displaySlogans() : clears DOM, loops through slogans, displays slogans on the page` | 3 |
 
 
 ## Ideas for strech goals
